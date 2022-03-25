@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ClusterConfig>
+    <ip>192.168.124.60</ip>
+    <port>9527</port>
+    <clusterName>DatabaseSystem</clusterName>
+    <clusterNode>akka.tcp://DatabaseSystem@192.168.124.60:9527</clusterNode>
+</ClusterConfig>

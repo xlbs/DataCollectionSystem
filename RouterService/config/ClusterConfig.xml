@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ClusterConfig>
+    <ip>192.168.124.60</ip>
+    <port>3558</port>
+    <clusterName>collectionSystem</clusterName>
+    <clusterNode>akka.tcp://collectionSystem@192.168.124.60:3558</clusterNode>
+</ClusterConfig>

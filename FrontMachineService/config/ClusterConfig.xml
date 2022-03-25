@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ClusterConfig>
+    <ip>192.168.124.60</ip>
+    <port>2552</port>
+    <clusterName>clousystem</clusterName>
+    <clusterNode>akka.tcp://clousystem@192.168.124.60:3558</clusterNode>
+</ClusterConfig>
+

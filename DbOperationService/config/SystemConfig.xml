@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<section name="root">
+   <config name="database_mysql">
+      <item key="dbType" value="mysql_8" desc=""/>
+      <item key="ipPort" value="127.0.0.1:3307" desc=""/>
+      <item key="dbName" value="kzy_test_db" desc=""/>
+      <item key="charSet" value="UTF-8"/>
+      <item key="username" value="kzy_test_user"/>
+      <item key="password" value="kzy_test_user"/>        
+    </config>
+</section>
+

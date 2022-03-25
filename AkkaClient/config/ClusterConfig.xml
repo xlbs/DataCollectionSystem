@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ClusterConfig>
+    <ip>192.168.124.60</ip>
+    <port>1111</port>
+    <clusterName>ClientSystem</clusterName>
+    <clusterNode>akka.tcp://ClientSystem@192.168.124.60:1111</clusterNode>
+</ClusterConfig>

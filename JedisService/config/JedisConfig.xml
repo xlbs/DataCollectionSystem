@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<JedisConfig>
+	<maxTotal>500</maxTotal>
+	<maxIdle>20</maxIdle>
+	<testOnBorrow>true</testOnBorrow>
+	<needJedis>true</needJedis>
+	<redisClusters>
+		<clusterName>docRedis</clusterName>
+		<ipports>
+			<ip>127.0.0.1</ip>
+			<port>6379</port>
+		</ipports>
+<!--		<ipports>-->
+<!--			<ip>10.13.3.4</ip>-->
+<!--			<port>7000</port>-->
+<!--		</ipports>-->
+<!--		<ipports>-->
+<!--			<ip>127.0.0.1</ip>-->
+<!--			<port>7000</port>-->
+<!--		</ipports>-->
+	</redisClusters>
+	<redisClusters>
+		<clusterName>dataRedis</clusterName>
+		<ipports>
+			<ip>127.0.0.1</ip>
+			<port>6379</port>
+		</ipports>
+		<!-- <ipports>
+			<ip>10.13.3.4</ip>
+			<port>7000</port>
+		</ipports>
+		<ipports>
+			<ip>10.98.94.219</ip>
+			<port>7000</port>
+		</ipports> -->
+	</redisClusters>
+	<fetchSize>100000</fetchSize>
+</JedisConfig>
